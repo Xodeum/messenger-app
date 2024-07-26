@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Messenger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="messenger-container">
+        <!-- Authentication Form -->
+        <div class="auth-form">
+            <h2>Login/Signup</h2>
+            <form id="auth-form">
+                <input type="text" id="username" placeholder="Username">
+                <button id="auth-btn">Login/Signup</button>
+            </form>
+        </div>
+
+        <!-- Messenger Interface -->
+        <div class="messenger-interface">
+            <!-- Header -->
+            <div class="chat-header">
+                <img id="user-avatar" src="" alt="User Avatar">
+                <span id="username-display"></span>
+                <button id="settings-btn">Settings</button>
+            </div>
+
+            <!-- Messages -->
+            <div class="chat-messages">
+                <ul id="messages"></ul>
+            </div>
+
+            <!-- Input Field -->
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type a message...">
+                <button id="send-btn">Send</button>
+                <button id="emoji-btn">Emoji</button>
+            </div>
+
+            <!-- Emoji Picker -->
+            <div class="emoji-picker">
+                <ul>
+                    <li>😊</li>
+                    <li>😄</li>
+                    <li>😆</li>
+                    <li>😎</li>
+                    <li>😍</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
